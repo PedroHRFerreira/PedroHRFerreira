@@ -1,36 +1,40 @@
-# **Perfil de Pedro H. Rodrigues**
+┌────────────────────────────┐
+│  **Perfil de Pedro H. Rodrigues**  │
+└────────────────────────────┘
 
-![Pedro's Avatar](link_para_sua_imagem)
+┌──────────────────┬─────────────────┐
+│  Info Pessoais   │                │
+├──────────────────┼─────────────────┤
+│ **Nome:**        │ Pedro H. Rodrigues │
+│ **Idade:**       │ 17 anos         │
+└──────────────────┴─────────────────┘
 
----
+┌──────────────────┬───────────────┐
+│    Linguagens    │               │
+├──────────────────┼───────────────┤
+│ PHP, JavaScript, │               │
+│ TypeScript, Go   │               │
+└──────────────────┴───────────────┘
 
-## Informações Pessoais
-- **Nome:** Pedro H. Rodrigues
-- **Idade:** 17 anos
+┌──────────────────┬───────────────┐
+│    Frameworks    │               │
+├──────────────────┼───────────────┤
+│ Vue.js, Nuxt.js  │               │
+└──────────────────┴───────────────┘
 
----
+┌──────────────────┬─────────────────────────┐
+│    Interesses    │                         │
+├──────────────────┼─────────────────────────┤
+│ Desenvolvimento  │                         │
+│ Web, Programação │                         │
+│ Funcional,       │                         │
+│ Explorar Novas  │                         │
+│ Tecnologias      │                         │
+└──────────────────┴─────────────────────────┘
 
-## Linguagens de Programação
-- **PHP**
-- **JavaScript**
-- **TypeScript**
-- **Go**
-
----
-
-## Frameworks
-- **Vue.js**
-- **Nuxt.js**
-
----
-
-### **Interesses**
-- Desenvolvimento Web
-- Programação Funcional
-- Desenvolvimento de Aplicações Modernas
-- Explorar Novas Tecnologias
-
----
-
-#### **Contato**
-- Email: devpedrohr@gmail.com
+┌──────────────────┬────────────────────────────────┐
+│    Contato       │                                │
+├──────────────────┼────────────────────────────────┤
+│ Email:           │ devpedrohr@gmail.com       │
+│ LinkedIn:        │ [Pedro H. Rodrigues](link)    │
+└──────────────────┴────────────────────────────────┘
