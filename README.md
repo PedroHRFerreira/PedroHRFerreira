@@ -1,18 +1,37 @@
-- 👋 Hi, I’m @PedroHRFerreira
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
+# **Perfil de Pedro H. Rodrigues**
 
-<!---
-PedroHRFerreira/PedroHRFerreira is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
-* Parte 1: 20%
-* Parte 2: 30%
-* Parte 3: 10%
-* Parte 4: 25%
-* Parte 5: 15%
+![Pedro's Avatar](link_para_sua_imagem)
 
+---
+
+## Informações Pessoais
+- **Nome:** Pedro H. Rodrigues
+- **Idade:** 17 anos
+
+---
+
+## Linguagens de Programação
+- **PHP**
+- **JavaScript**
+- **TypeScript**
+- **Go**
+
+---
+
+## Frameworks
+- **Vue.js**
+- **Nuxt.js**
+
+---
+
+### **Interesses**
+- Desenvolvimento Web
+- Programação Funcional
+- Desenvolvimento de Aplicações Modernas
+- Explorar Novas Tecnologias
+
+---
+
+#### **Contato**
+- Email: seuemail@example.com
+- LinkedIn: [Pedro H. Rodrigues](link_para_o_perfil_do_LinkedIn)
