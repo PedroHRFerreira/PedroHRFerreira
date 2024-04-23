@@ -1,40 +1,37 @@
-┌────────────────────────────┐
-│  **Perfil de Pedro H. Rodrigues**  │
-└────────────────────────────┘
+# **Perfil de Pedro H. Rodrigues**
 
-┌──────────────────┬─────────────────┐
-│  Info Pessoais   │                │
-├──────────────────┼─────────────────┤
-│ **Nome:**        │ Pedro H. Rodrigues │
-│ **Idade:**       │ 17 anos         │
-└──────────────────┴─────────────────┘
+![Pedro's Avatar](link_para_sua_imagem)
 
-┌──────────────────┬───────────────┐
-│    Linguagens    │               │
-├──────────────────┼───────────────┤
-│ PHP, JavaScript, │               │
-│ TypeScript, Go   │               │
-└──────────────────┴───────────────┘
+---
 
-┌──────────────────┬───────────────┐
-│    Frameworks    │               │
-├──────────────────┼───────────────┤
-│ Vue.js, Nuxt.js  │               │
-└──────────────────┴───────────────┘
+## Informações Pessoais
+- **Nome:** Pedro H. Rodrigues
+- **Idade:** 17 anos
 
-┌──────────────────┬─────────────────────────┐
-│    Interesses    │                         │
-├──────────────────┼─────────────────────────┤
-│ Desenvolvimento  │                         │
-│ Web, Programação │                         │
-│ Funcional,       │                         │
-│ Explorar Novas  │                         │
-│ Tecnologias      │                         │
-└──────────────────┴─────────────────────────┘
+---
 
-┌──────────────────┬────────────────────────────────┐
-│    Contato       │                                │
-├──────────────────┼────────────────────────────────┤
-│ Email:           │ devpedrohr@gmail.com       │
-│ LinkedIn:        │ [Pedro H. Rodrigues](link)    │
-└──────────────────┴────────────────────────────────┘
+## Linguagens de Programação
+- **PHP**
+- **JavaScript**
+- **TypeScript**
+- **Go**
+
+---
+
+## Frameworks
+- **Vue.js**
+- **Nuxt.js**
+
+---
+
+### **Interesses**
+- Desenvolvimento Web
+- Programação Funcional
+- Desenvolvimento de Aplicações Modernas
+- Explorar Novas Tecnologias
+
+---
+
+#### **Contato**
+- Email: devpedrohr@gmail.com
+- LinkedIn: [Pedro H. Rodrigues](link_para_o_perfil_do_LinkedIn)
