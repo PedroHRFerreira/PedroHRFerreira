@@ -10,10 +10,9 @@
 PedroHRFerreira/PedroHRFerreira is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
 --->
+* Parte 1: 20%
+* Parte 2: 30%
+* Parte 3: 10%
+* Parte 4: 25%
+* Parte 5: 15%
 
-| Nome da Categoria | Valor |
-|-------------------|-------|
-| Categoria 1       | 10    | **********
-| Categoria 2       | 20    | ********************
-| Categoria 3       | 15    | ***************
-| Categoria 4       | 25    | *************************
