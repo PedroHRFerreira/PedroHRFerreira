@@ -1,16 +1,16 @@
-# **Perfil de Pedro H. Rodrigues**
+# 🌟 **Perfil de Pedro H. Rodrigues** 🌟
 
-![Pedro's Avatar](link_para_sua_imagem)
+![Pedro Avatar](link_para_sua_imagem)
 
 ---
 
-## Informações Pessoais
+## 🚀 Informações Pessoais 🚀
 - **Nome:** Pedro H. Rodrigues
 - **Idade:** 17 anos
 
 ---
 
-## Linguagens de Programação
+## 💻 Linguagens de Programação 💻
 - **PHP**
 - **JavaScript**
 - **TypeScript**
@@ -18,13 +18,13 @@
 
 ---
 
-## Frameworks
+## 🛠️ Frameworks 🛠️
 - **Vue.js**
 - **Nuxt.js**
 
 ---
 
-### **Interesses**
+### 🔍 Interesses 🔍
 - Desenvolvimento Web
 - Programação Funcional
 - Desenvolvimento de Aplicações Modernas
@@ -32,6 +32,6 @@
 
 ---
 
-#### **Contato**
+#### 📫 Contato 📫
 - Email: devpedrohr@gmail.com
 - LinkedIn: [Pedro H. Rodrigues](link_para_o_perfil_do_LinkedIn)
