@@ -1,14 +1,37 @@
-|                    |                      |
-|--------------------|----------------------|
-| # 🌟 **Perfil de Pedro H. Rodrigues** 🌟 | ## 🛠️ Frameworks 🛠️ |
-|                    |                      |
-| --- | --- |
-| ## 🚀 Informações Pessoais 🚀 | ### 🔍 Interesses 🔍 |
-| - **Nome:** Pedro H. Rodrigues | - Desenvolvimento Web |
-| - **Idade:** 17 anos | - Programação Funcional |
-|                    |                      |
-| ## 💻 Linguagens de Programação 💻 | #### 📫 Contato 📫 |
-| - **PHP** | - Email: devpedrohr@gmail.com |
-| - **JavaScript** | - [Pedro H. Rodrigues](link_para_o_perfil_do_LinkedIn) |
-| - **TypeScript** |                      |
-| - **Go** |                      |
+# 🌟 **Perfil de Pedro H. Rodrigues** 🌟
+
+![Pedro Avatar](link_para_sua_imagem)
+
+---
+
+## 🚀 Informações Pessoais 🚀
+- **Nome:** Pedro H. Rodrigues
+- **Idade:** 17 anos
+
+---
+
+## 💻 Linguagens de Programação 💻
+- **PHP**
+- **JavaScript**
+- **TypeScript**
+- **Go**
+
+---
+
+## 🛠️ Frameworks 🛠️
+- **Vue.js**
+- **Nuxt.js**
+
+---
+
+### 🔍 Interesses 🔍
+- Desenvolvimento Web
+- Programação Funcional
+- Desenvolvimento de Aplicações Modernas
+- Explorar Novas Tecnologias
+
+---
+
+#### 📫 Contato 📫
+- Email: devpedrohr@gmail.com
+- LinkedIn: [Pedro H. Rodrigues](link_para_o_perfil_do_LinkedIn)
