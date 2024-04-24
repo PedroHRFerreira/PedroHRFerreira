@@ -16,16 +16,14 @@
 
 - **PHP**
 - **JavaScript**
-- **TypeScript**
-- **Go**
-  
+
   </div>
   <div class="column">
   
 ## 🛠️ Frameworks 🛠️
 
-- **Vue.js**
-- **Nuxt.js**
+- **TypeScript**
+- **Go**
 
 ---
 
@@ -33,15 +31,23 @@
 
 - Desenvolvimento Web
 - Programação Funcional
-- Desenvolvimento de Aplicações Modernas
-- Explorar Novas Tecnologias
 
----
+  </div>
+</div>
 
-#### 📫 Contato 📫
+<div class="row">
+  <div class="column">
+  
+### 📫 Contato 📫
 
 - Email: devpedrohr@gmail.com
-- LinkedIn: [Pedro H. Rodrigues](link_para_o_perfil_do_LinkedIn)
+
+  </div>
+  <div class="column">
+  
+#### LinkedIn
+
+- [Pedro H. Rodrigues](link_para_o_perfil_do_LinkedIn)
   
   </div>
 </div>
