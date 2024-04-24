@@ -12,17 +12,10 @@
 
 ## 💻 Linguagens de Programação 💻
 
-<div style="column-count: 2;">
-
-### Coluna 1
-- **PHP**
-- **JavaScript**
-
-### Coluna 2
-- **TypeScript**
-- **Go**
-
-</div>
+| Coluna 1 | Coluna 2 |
+| -------- | -------- |
+| PHP      | TypeScript |
+| JavaScript | Go      |
 
 ---
 
