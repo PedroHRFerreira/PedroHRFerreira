@@ -11,10 +11,21 @@
 ---
 
 ## 💻 Linguagens de Programação 💻
-- **PHP**
-- **JavaScript**
-- **TypeScript**
-- **Go**
+<details>
+  <summary>Mostrar linguagens de programação</summary>
+
+  <div markdown="1">
+
+  ### Coluna 1
+  - **PHP**
+  - **JavaScript**
+
+  ### Coluna 2
+  - **TypeScript**
+  - **Go**
+
+  </div>
+</details>
 
 ---
 
