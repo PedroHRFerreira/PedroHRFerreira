@@ -16,11 +16,11 @@
 
   <div markdown="1">
 
-  ### Coluna 1
+  ## Coluna 1
   - **PHP**
   - **JavaScript**
 
-  ### Coluna 2
+  ## Coluna 2
   - **TypeScript**
   - **Go**
 
