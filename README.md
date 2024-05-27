@@ -27,4 +27,3 @@
 
 ### 📫 Contato 📫
 - Email: devpedrohr@gmail.com
-- LinkedIn: [Pedro H. Rodrigues](link_para_o_perfil_do_LinkedIn)
