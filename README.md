@@ -1,29 +1,43 @@
 🌟 **Perfil de Pedro H. Rodrigues** 🌟
 
-![Pedro Avatar](link_para_sua_imagem)
-
 ## 🚀 Informações Pessoais 🚀
-- **Nome:** Pedro H. Rodrigues
-- **Idade:** 17 anos
+```php
+<?php
+function main()
+{
+    $name = 'Pedro Henrique';
+    $age = '17 year';
+    $location = 'Governador Valadares, MG, Brazil';
+    
+    echo "Name: " . $name . "<br>";
+    echo "Idade:" . $age . "<br>";
+    echo "Location: " . $location . "<br>";
+}
 
+main();
+?>
+```
 ## 💻 Algumas estatísticas 💻:
 <div align="left">
   <a href="https://github.com/PedroHRFerreira">
-  <img height="155em" src="https://github-readme-stats.vercel.app/api?username=PedroHRFerreira&show_icons=true&theme=gruvbox&include_all_commits=true&count_private=true"/>
-    
-  <img height="155em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=PedroHRFerreira&layout=compact&langs_count=7&theme=gruvbox"/>
+    <img align="left" src="https://github-readme-stats.vercel.app/api/top-langs/?username=PedroHRFerreira&theme=dark&hide_langs_below=1" />
+    <img align="center" src="https://github-readme-stats.vercel.app/api?username=PedroHRFerreira&show_icons=true&theme=dark&hide_height=27" alt="**SEU NOME** github stats"/>
+  </a>
 </div>
-
-## Estudando agora 👨‍💻👨‍💻:
-<div align="left">
- <img height="100" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/go/go-original.svg"/>
-</div>
-
-### 🔍 Interesses 🔍
-- Desenvolvimento Web
-- Programação Funcional
-- Desenvolvimento de Aplicações Modernas
-- Explorar Novas Tecnologias
 
 ### 📫 Contato 📫
-- Email: devpedrohr@gmail.com
+
+<div align="right">
+  <div align="left">
+    <a href="mailto:devpedrohr@gmail.com">Email: devpedrohr@gmail.com</a>
+  </div>
+</div>
+
+
+
+### 🔍 Interesses 🔍
+
+  - Desenvolvimento Web 
+  - Programação Funcional 
+  - Desenvolvimento de Aplicações Modernas
+  - Explorar Novas Tecnologias 
