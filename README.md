@@ -9,9 +9,9 @@ function main()
     $age = '17 year';
     $location = 'Governador Valadares, MG, Brazil';
     
-    echo "Name: " . $name . "<br>";
-    echo "Idade:" . $age . "<br>";
-    echo "Location: " . $location . "<br>";
+    echo "Name: " . $name . PHP_EOL;
+    echo "Idade:" . $age . PHP_EOL;
+    echo "Location: " . $location . PHP_EOL;
 }
 
 main();
