@@ -19,7 +19,7 @@ main();
 ```
 ## 💻 Algumas estatísticas 💻:
 <div align="left">
-  <a href="https://github.com/PedroHRFerreira">
+  <a href="https://github.com/PedroHRFerreira?tab=repositories">
     <img align="left" src="https://github-readme-stats.vercel.app/api/top-langs/?username=PedroHRFerreira&theme=dark&hide_langs_below=1" />
     <img align="center" src="https://github-readme-stats.vercel.app/api?username=PedroHRFerreira&show_icons=true&theme=dark&hide_height=27" alt="**SEU NOME** github stats"/>
   </a>
