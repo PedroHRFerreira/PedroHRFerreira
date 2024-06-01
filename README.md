@@ -1,6 +1,6 @@
 🌟 **Perfil de Pedro H. Rodrigues** 🌟
 
-## 🚀 Informações Pessoais 🚀
+## 🚀 Personal information 🚀
 ```php
 <?php
 function main()
@@ -17,7 +17,7 @@ function main()
 main();
 ?>
 ```
-## 💻 Algumas estatísticas 💻:
+## 💻 Some statistics 💻:
 <div align="left">
      <a href="https://github.com/PedroHRFerreira?tab=repositories">
           <img width="800" height="220" src="https://streak-stats.demolab.com/?user=PedroHRFerreira&theme=dark&hide_border=true&border_radius=5&card_width=1000">
@@ -30,7 +30,7 @@ main();
   </a>
 </div>
 
-### 📫 Contato 📫
+### 📫 Contact 📫
 
 <div align="right">
   <div align="left">
