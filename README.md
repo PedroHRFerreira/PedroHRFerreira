@@ -20,7 +20,8 @@ main();
 ## 💻 Some statistics 💻:
 <div align="left">
      <a href="https://github.com/PedroHRFerreira?tab=repositories">
-          <img width="800" height="220" src="https://streak-stats.demolab.com/?user=PedroHRFerreira&theme=dark&hide_border=true&border_radius=5&card_width=1000">
+        <img align="center" src="https://github-profile-trophy.vercel.app/?username=PedroHRFerreira&theme=juicyfresh&hide_langs_below=1" alt="**SEU NOME** github stats"/>
+        <img width="800" height="220" src="https://streak-stats.demolab.com/?user=PedroHRFerreira&theme=dark&hide_border=true&border_radius=5&card_width=1000">
      </a>
 </div>
 <div align="left">
