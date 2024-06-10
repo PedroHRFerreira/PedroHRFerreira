@@ -5,13 +5,17 @@
 <?php
 function main()
 {
-    $name = 'Pedro Henrique';
-    $age = '17 year';
-    $location = 'Governador Valadares, MG, Brazil';
-    
-    echo "Name: " . $name . PHP_EOL;
-    echo "Idade:" . $age . PHP_EOL;
-    echo "Location: " . $location . PHP_EOL;
+    $information =
+    [
+        "Name" => "Pedro Henrique",
+        "Age" => "17 year",
+        "Location" => "Governador Valadares, MG, Brazil"
+    ];
+
+    foreach($information as $personal => $personalInformation)
+    {
+        echo $personal . ": " . $personalInformation . PHP_EOL ;
+    }
 }
 
 main();
