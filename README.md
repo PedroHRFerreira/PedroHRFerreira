@@ -43,7 +43,8 @@ main();
 
 <div align="right">
   <div align="left">
-    <a href="mailto:devpedrohr@gmail.com">Email: devpedrohr@gmail.com</a>
+    <a href="mailto:devpedrohr@gmail.com">Email: devpedrohr@gmail.com</a></br>
+      <a href="https://www.linkedin.com/in/pedro-henrique-2ab9b6302/">Linkedin: Pedro henrique </a>
   </div>
 </div>
 
