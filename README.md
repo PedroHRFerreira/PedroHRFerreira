@@ -21,6 +21,9 @@ function main()
 main();
 ?>
 ```
+## Visit counter
+![](https://profile-counter.glitch.me/PedroHRFerreira/count.svg?reset=1)
+
 ## 💻 Some statistics 💻
 <details>
        <summary>statistics</summary>
