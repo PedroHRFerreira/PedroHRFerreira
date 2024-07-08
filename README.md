@@ -22,7 +22,9 @@ main();
 ?>
 ```
 ## Visit counter
-![](https://profile-counter.glitch.me/PedroHRFerreira/count.svg?reset=1)
+<a href="https://github.com/PedroHRFerreira?tab=repositories">
+    <img align="center" src="https://profile-counter.glitch.me/PedroHRFerreira/count.svg?reset=1" alt="PedroHRFerreira github stats"/>
+ </a>
 
 ## 💻 Some statistics 💻
 <details>
@@ -44,9 +46,3 @@ main();
 
 ### 📫 Contact 📫
 
-<div align="right">
-  <div align="left">
-    <a href="mailto:devpedrohr@gmail.com">Email: devpedrohr@gmail.com</a></br>
-      <a href="https://www.linkedin.com/in/pedro-henrique-2ab9b6302/">Linkedin: Pedro henrique </a>
-  </div>
-</div>
