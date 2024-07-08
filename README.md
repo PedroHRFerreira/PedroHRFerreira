@@ -1,6 +1,6 @@
 🌟 **Perfil de Pedro H. Rodrigues** 🌟
-
 ## 🚀 Personal information 🚀
+![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=Front-end;Estudando+Laravel&center=true&width=380&height=45)
 ```php
 <?php
 function main()
