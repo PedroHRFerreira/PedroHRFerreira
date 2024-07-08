@@ -50,12 +50,3 @@ main();
       <a href="https://www.linkedin.com/in/pedro-henrique-2ab9b6302/">Linkedin: Pedro henrique </a>
   </div>
 </div>
-
-
-
-### 🔍 Interesses 🔍
-
-  - Desenvolvimento Web 
-  - Programação Funcional 
-  - Desenvolvimento de Aplicações Modernas
-  - Explorar Novas Tecnologias 
