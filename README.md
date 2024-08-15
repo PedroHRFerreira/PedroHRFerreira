@@ -30,7 +30,7 @@ $profile->personalProfile();
 
 ## 💻 Some statistics 💻
 <details>
-       <summary><h3>statistics</h3></summary>
+       <summary><h3>Statistics</h3></summary>
     <div align="left">
          <a href="https://github.com/PedroHRFerreira?tab=repositories">
             <img align="center" src="https://github-profile-trophy.vercel.app/?username=PedroHRFerreira&theme=juicyfresh&hide_langs_below=1" alt="PedroHRFerreira github stats"/>
@@ -45,7 +45,7 @@ $profile->personalProfile();
     </div>
 </details>
 
-### 🔨 tools and languages 🔨
+### 🔨 Tools and languages 🔨
 ![Vue.js](https://img.shields.io/badge/vuejs-%2335495e.svg?style=for-the-badge&logo=vuedotjs&logoColor=%234FC08D) 
 ![Nuxt.js](https://img.shields.io/badge/Nuxt-js-%2335495e.svg?style=for-the-badge&logo=nuxtdotjs&logoColor=%234FC08D)
 ![MySQL](https://img.shields.io/badge/MySQL-00758F.svg?style=for-the-badge&logo=MySQL&logoColor=white)
