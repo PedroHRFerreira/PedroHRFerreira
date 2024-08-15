@@ -1,5 +1,3 @@
-🌟 **Perfil de Pedro H. Rodrigues** 🌟
-## 🚀 Personal information 🚀
 ```php
 <?php
 
