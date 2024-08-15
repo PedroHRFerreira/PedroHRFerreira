@@ -2,22 +2,27 @@
 ## 🚀 Personal information 🚀
 ```php
 <?php
-function main()
-{
-    $information =
-    [
-        "Name" => "Pedro Henrique",
-        "Age" => "17 year",
-        "Location" => "Governador Valadares, MG, Brazil"
-    ];
 
-    foreach($information as $personal => $personalInformation)
+class Profile 
+{
+    public function personalProfile() 
     {
-        echo $personal . ": " . $personalInformation . PHP_EOL ;
+        $information = [
+            "Name" => "Pedro Henrique",
+            "Age" => "17 years",
+            "Location" => "Governador Valadares, MG, Brazil"
+        ];
+
+        foreach ($information as $personal => $personalInformation) {
+            echo $personal.": ".$personalInformation.PHP_EOL;
+        }
     }
 }
 
-main();
+$profile = new Profile;
+
+$profile->personalProfile();
+
 ?>
 ```
 ## Visit counter
@@ -27,7 +32,7 @@ main();
 
 ## 💻 Some statistics 💻
 <details>
-       <summary>statistics</summary>
+       <summary><h3>statistics</h3></summary>
     <div align="left">
          <a href="https://github.com/PedroHRFerreira?tab=repositories">
             <img align="center" src="https://github-profile-trophy.vercel.app/?username=PedroHRFerreira&theme=juicyfresh&hide_langs_below=1" alt="PedroHRFerreira github stats"/>
