@@ -49,6 +49,8 @@ $profile->personalProfile();
 ![Vue.js](https://img.shields.io/badge/vuejs-%2335495e.svg?style=for-the-badge&logo=vuedotjs&logoColor=%234FC08D) 
 ![Nuxt.js](https://img.shields.io/badge/Nuxt-js-%2335495e.svg?style=for-the-badge&logo=nuxtdotjs&logoColor=%234FC08D)
 ![MySQL](https://img.shields.io/badge/MySQL-00758F.svg?style=for-the-badge&logo=MySQL&logoColor=white)
+![npm Badge](https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white)
+![Git Badge](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 <br>
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
