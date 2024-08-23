@@ -6,7 +6,6 @@ class Profile
     public function personalProfile() 
     {
         $information = [
-            "Name" => "Pedro Henrique",
             "Age" => "17 years",
             "Location" => "Governador Valadares, MG, Brazil"
         ];
@@ -23,6 +22,11 @@ $profile->personalProfile();
 
 ?>
 ```
+```Js
+const functionName = (name) => { console.log(`Olá eu sou ${name}`)};
+functionName("Pedro Henrique");
+```
+
 ## Visit counter
 <a href="https://github.com/PedroHRFerreira?tab=repositories">
     <img align="center" src="https://profile-counter.glitch.me/PedroHRFerreira/count.svg?reset=1" alt="PedroHRFerreira github stats"/>
