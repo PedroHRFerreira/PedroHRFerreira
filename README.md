@@ -1,30 +1,21 @@
-```php
-<?php
+```Ts
+class Profile {
+  personalProfile() {
+    const information: [string, string][] = [
+      ["Name", "Pedro Henrique"],
+      ["Age", "17 years"],
+      ["Location", "Governador Valadares, MG, Brazil"],
+    ];
 
-class Profile 
-{
-    public function personalProfile() 
-    {
-        $information = [
-            "Age" => "17 years",
-            "Location" => "Governador Valadares, MG, Brazil"
-        ];
-
-        foreach ($information as $personal => $personalInformation) {
-            echo $personal.": ".$personalInformation.PHP_EOL;
-        }
+    for (const [key, value] of information) {
+      console.log(`${key}: ${value}`);
     }
+  }
 }
 
-$profile = new Profile;
+const profile = new Profile();
+profile.personalProfile();
 
-$profile->personalProfile();
-
-?>
-```
-```Js
-const functionName = (name) => { console.log(`Olá eu sou ${name}`)};
-functionName("Pedro Henrique");
 ```
 
 ## Visit counter
