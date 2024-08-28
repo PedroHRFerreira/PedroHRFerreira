@@ -1,10 +1,17 @@
 ```Ts
 class Profile {
   personalProfile() {
-    const information: [string, string][] = [
-      ["Name", "Pedro Henrique"],
-      ["Age", "17 years"],
-      ["Location", "Governador Valadares, MG, Brazil"],
+    const information: [string, string][] =
+    [
+      [
+        "Name", "Pedro Henrique"
+      ],
+      [
+        "Age", "17 years"
+      ],
+      [
+        "Location", "Governador Valadares, MG, Brazil"
+      ],
     ];
 
     for (const [key, value] of information) {
