@@ -1,30 +1,27 @@
-```Ts
-class Profile {
-  personalProfile() {
-    const information: [string, string][] =
-    [
-      [
-        "Name", "Pedro Henrique"
-      ],
-      [
-        "Age", "17 years"
-      ],
-      [
-        "Location", "Governador Valadares, MG, Brazil"
-      ],
-    ];
+```
+<?php
 
-    for (const [key, value] of information) {
-      console.log(`${key}: ${value}`);
+class Profile 
+{
+    public function personalProfile() 
+    {
+        $information = [
+            "Name" => "Pedro Henrique",
+            "Age" => "17 years",
+            "Location" => "Governador Valadares, MG, Brazil"
+        ];
+
+        foreach ($information as $personal => $personalInformation) {
+            echo $personal . ": " . $personalInformation . PHP_EOL;
+        }
     }
-  }
 }
 
-const profile = new Profile();
-profile.personalProfile();
+$profile = new Profile;
+$profile->personalProfile();
 
+?>
 ```
-
 ## Visit counter
 <a href="https://github.com/PedroHRFerreira?tab=repositories">
     <img align="center" src="https://profile-counter.glitch.me/PedroHRFerreira/count.svg?reset=1" alt="PedroHRFerreira github stats"/>
