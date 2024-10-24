@@ -1,26 +1,30 @@
 ```
-<?php
+import React from "react";
 
-class Profile 
-{
-    public function personalProfile() 
-    {
-        $information = [
-            "Name" => "Pedro Henrique",
-            "Age" => "17 years",
-            "Location" => "Governador Valadares, MG, Brazil"
-        ];
+const Profile: React.FC = () => {
+  const personalProfile = () => {
+    const information = {
+      Name: "Pedro Henrique",
+      Age: "17 years",
+      Location: "Governador Valadares, MG, Brazil",
+    };
 
-        foreach ($information as $personal => $personalInformation) {
-            echo $personal . ": " . $personalInformation . PHP_EOL;
-        }
-    }
-}
+    return (
+      <div>
+        {Object.entries(information).map(([key, value]) => (
+          <p key={key}>
+            {key}: {value}
+          </p>
+        ))}
+      </div>
+    );
+  };
 
-$profile = new Profile;
-$profile->personalProfile();
+  return <div>{personalProfile()}</div>;
+};
 
-?>
+export default Profile;
+
 ```
 ## Visit counter
 <a href="https://github.com/PedroHRFerreira?tab=repositories">
