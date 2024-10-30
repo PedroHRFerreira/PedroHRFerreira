@@ -1,30 +1,43 @@
-```
-import React from "react";
+```javascript
+import React from 'react';
 
-const Profile: React.FC = () => {
-  const personalProfile = () => {
-    const information = {
-      Name: "Pedro Henrique",
-      Age: "17 years",
-      Location: "Governador Valadares, MG, Brazil",
-    };
-
-    return (
-      <div>
-        {Object.entries(information).map(([key, value]) => (
-          <p key={key}>
-            {key}: {value}
-          </p>
-        ))}
-      </div>
-    );
+const PedroHenrique = () => {
+  const pedroHenrique = {
+    pronouns: "He | Him",
+    name: "Pedro Henrique",
+    age: "17 years",
+    location: "Governador Valadares, MG, Brazil",
+    code: ["TypeScript", "JavaScript", "PHP", "HTML", "CSS", "Sass"],
+    askMeAbout: ["web dev", "Vue.js", "Nuxt.js"],
+    technologies: {
+      frontEnd: {
+        js: ["Vue", "Nuxt", "React"],
+        css: ["Sass"],
+      },
+      backEnd: {
+        php: ["Laravel"],
+      },
+      databases: ["MySQL"],
+    },
+    currentFocus: "Exploring full-stack development and Nuxt.js",
+    funFact: "I code better with music on!",
   };
 
-  return <div>{personalProfile()}</div>;
+  return (
+    <div>
+      <h1>{pedroHenrique.name}</h1>
+      <p><strong>Pronouns:</strong> {pedroHenrique.pronouns}</p>
+      <p><strong>Age:</strong> {pedroHenrique.age}</p>
+      <p><strong>Location:</strong> {pedroHenrique.location}</p>
+      <p><strong>Code:</strong> {pedroHenrique.code.join(', ')}</p>
+      <p><strong>Ask me about:</strong> {pedroHenrique.askMeAbout.join(', ')}</p>
+      <p><strong>Current focus:</strong> {pedroHenrique.currentFocus}</p>
+      <p><strong>Fun fact:</strong> {pedroHenrique.funFact}</p>
+    </div>
+  );
 };
 
-export default Profile;
-
+export default PedroHenrique;
 ```
 
 ## 💻 Some statistics 💻
