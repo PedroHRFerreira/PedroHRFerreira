@@ -1,15 +1,12 @@
 <h1 align="center">👋 Olá! Eu sou Pedro Henrique 👨‍💻</h1>
-<p align="center">Desenvolvedor de software apaixonado por resolver problemas complexos e aprender novas tecnologias</p>
 
----
+
 
 ## 🧑‍🚀 Sobre mim
 - 🎂 Idade: **17 anos**
 - 🌍 Localização: **Governador Valadares, MG, Brasil**
 - 📚 Explorando: **Desenvolvimento Web e Mobile**
 - 🚀 Trabalhando com: **Sass, Vue, Nuxt, MySQL**
-
----
 
 ## 📊 Estatísticas
 
@@ -26,8 +23,6 @@
         <img width="400" src="https://github-readme-stats.vercel.app/api?username=PedroHRFerreira&show_icons=true&theme=dark&hide_height=27"/>
     </a>
 </p>
-
----
 
 ## 🛠️ Tecnologias e Ferramentas
 
@@ -48,8 +43,6 @@
   <img src="https://img.shields.io/badge/TypeScript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white" />
   <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" />
 </div>
-
----
 
 ## 📈 Contador de visitas
 <p align="center">
