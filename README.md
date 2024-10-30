@@ -1,30 +1,47 @@
-<h1 align="center">👋 Olá! Eu sou Pedro Henrique 👨‍💻</h1>
+```
+import React from "react";
 
+const Profile: React.FC = () => {
+  const personalProfile = () => {
+    const information = {
+      Name: "Pedro Henrique",
+      Age: "17 years",
+      Location: "Governador Valadares, MG, Brazil",
+    };
 
+    return (
+      <div>
+        {Object.entries(information).map(([key, value]) => (
+          <p key={key}>
+            {key}: {value}
+          </p>
+        ))}
+      </div>
+    );
+  };
 
-## 🧑‍🚀 Sobre mim
-- 🎂 Idade: **17 anos**
-- 🌍 Localização: **Governador Valadares, MG, Brasil**
-- 📚 Explorando: **Desenvolvimento Web e Mobile**
-- 🚀 Trabalhando com: **Sass, Vue, Nuxt, MySQL**
+  return <div>{personalProfile()}</div>;
+};
 
-## 📊 Estatísticas
+export default Profile;
 
-<p align="center">
-    <a href="https://github.com/PedroHRFerreira">
-        <img width="500" src="https://streak-stats.demolab.com/?user=PedroHRFerreira&theme=dark&hide_border=true&border_radius=5&card_width=450">
-    </a>
-</p>
+```
 
-<br>
+## 💻 Some statistics 💻
+<div>
+    <div align="center">
+         <a href="https://github.com/PedroHRFerreira?tab=repositories">
+            <img width="800" height="220" src="https://streak-stats.demolab.com/?user=PedroHRFerreira&theme=dark&hide_border=true&border_radius=5&card_width=1000">
+         </a>
+    </div>
+    </div>
+    <div align="center">
+      <a href="https://github.com/PedroHRFerreira?tab=repositories">
+        <img align="center" src="https://github-readme-stats.vercel.app/api?username=PedroHRFerreira&show_icons=true&theme=dark&hide_height=27" alt="PedroHRFerreira github stats"/>
+      </a>
+    </div>
 
-<p align="center" style="display: flex; gap="30px">
-   <a href="https://github.com/PedroHRFerreira">
-        <img width="400" src="https://github-readme-stats.vercel.app/api?username=PedroHRFerreira&show_icons=true&theme=dark&hide_height=27"/>
-    </a>
-</p>
-
-## 🛠️ Tecnologias e Ferramentas
+---
 
 <div align="center">
   <img src="https://img.shields.io/badge/vue-%2335495e.svg?style=for-the-badge&logo=vuedotjs&logoColor=%234FC08D" />
@@ -43,8 +60,3 @@
   <img src="https://img.shields.io/badge/TypeScript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white" />
   <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" />
 </div>
-
-## 📈 Contador de visitas
-<p align="center">
-  <img src="https://profile-counter.glitch.me/PedroHRFerreira/count.svg?reset=1" alt="PedroHRFerreira visit counter"/>
-</p>
