@@ -3,7 +3,6 @@ import React from 'react';
 
 const PedroHenrique = () => {
   const pedroHenrique = {
-    pronouns: "He | Him",
     name: "Pedro Henrique",
     age: "17 years",
     location: "Governador Valadares, MG, Brazil",
