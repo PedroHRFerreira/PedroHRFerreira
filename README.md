@@ -26,13 +26,8 @@ const PedroHenrique = () => {
   return (
     <div>
       <h1>{pedroHenrique.name}</h1>
-      <p><strong>Pronouns:</strong> {pedroHenrique.pronouns}</p>
-      <p><strong>Age:</strong> {pedroHenrique.age}</p>
-      <p><strong>Location:</strong> {pedroHenrique.location}</p>
       <p><strong>Code:</strong> {pedroHenrique.code.join(', ')}</p>
       <p><strong>Ask me about:</strong> {pedroHenrique.askMeAbout.join(', ')}</p>
-      <p><strong>Current focus:</strong> {pedroHenrique.currentFocus}</p>
-      <p><strong>Fun fact:</strong> {pedroHenrique.funFact}</p>
     </div>
   );
 };
