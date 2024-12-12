@@ -8,18 +8,7 @@ const PedroHenrique = () => {
     location: "Governador Valadares, MG, Brazil",
     code: ["TypeScript", "JavaScript", "PHP", "HTML", "CSS", "Sass"],
     askMeAbout: ["web dev", "Vue.js", "Nuxt.js"],
-    technologies: {
-      frontEnd: {
-        js: ["Vue", "Nuxt", "React"],
-        css: ["Sass"],
-      },
-      backEnd: {
-        php: ["Laravel"],
-      },
-      databases: ["MySQL"],
-    },
     currentFocus: "Exploring full-stack development and Nuxt.js",
-    funFact: "I code better with music on!",
   };
 
   return (
