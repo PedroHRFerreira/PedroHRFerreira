@@ -7,8 +7,8 @@ const PedroHenrique = () => {
     age: "17 years",
     location: "Governador Valadares, MG, Brazil",
     code: ["TypeScript", "JavaScript", "PHP", "HTML", "CSS", "Sass"],
-    askMeAbout: ["web dev", "Vue.js", "Nuxt.js"],
-    currentFocus: "Exploring full-stack development and Nuxt.js",
+    askMeAbout: ["web dev", "Vue.js", "Nuxt.js", "Next.js"],
+    currentFocus: "Exploring full-stack development.",
   };
 
   return (
