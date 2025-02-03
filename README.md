@@ -9,11 +9,11 @@ const PedroHenrique = () => {
   };
 
   return (
-    <div>
+    <>
       <h1>{pedroHenrique.name}</h1>
       <p><strong>Code:</strong> {pedroHenrique.code.join(', ')}</p>
       <p><strong>Ask me about:</strong> {pedroHenrique.askMeAbout.join(', ')}</p>
-    </div>
+    </>
   );
 };
 
