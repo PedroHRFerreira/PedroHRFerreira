@@ -4,11 +4,8 @@ import React from 'react';
 const PedroHenrique = () => {
   const pedroHenrique = {
     name: "Pedro Henrique",
-    age: "18 years",
-    location: "Governador Valadares, MG, Brazil",
     code: ["TypeScript", "JavaScript", "PHP", "HTML", "CSS", "Sass"],
     askMeAbout: ["web dev", "Vue.js", "Nuxt.js", "Next.js"],
-    currentFocus: "Exploring full-stack development.",
   };
 
   return (
