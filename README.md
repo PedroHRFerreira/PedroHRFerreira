@@ -5,7 +5,7 @@ const PedroHenrique = () => {
   const pedroHenrique = {
     name: "Pedro Henrique",
     code: ["TypeScript", "JavaScript", "PHP", "HTML", "CSS", "Sass"],
-    askMeAbout: ["web dev", "Vue.js", "Nuxt.js", "Next.js"],
+    askMeAbout: ["web dev", "Vue.js", "Nuxt.js", "Next.js", "laravel"],
   };
 
   return (
@@ -43,6 +43,7 @@ export default PedroHenrique;
 ![Vue](https://img.shields.io/badge/vue-%2335495e.svg?style=for-the-badge&logo=vuedotjs&logoColor=%234FC08D) 
 ![Nuxt](https://img.shields.io/badge/Nuxt-%2335495e.svg?style=for-the-badge&logo=nuxtdotjs&logoColor=%234FC08D)
 ![React](https://img.shields.io/badge/React-%23007ACC?style=for-the-badge&logo=react&logoColor=white)
+![Laravel](https://img.shields.io/badge/Laravel-%23FF2D20?style=for-the-badge&logo=laravel&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-00758F.svg?style=for-the-badge&logo=MySQL&logoColor=white)
 ![Yarn Badge](https://img.shields.io/badge/Yarn-2C8EBB?style=for-the-badge&logo=yarn&logoColor=white)
 ![npm Badge](https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white)
