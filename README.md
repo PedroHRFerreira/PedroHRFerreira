@@ -11,7 +11,7 @@ const PedroHenrique = () => {
   return (
     <>
       <h1>{pedroHenrique.name}</h1>
-      <p><strong>Code:</strong> {pedroHenrique.code.join(', ')}</p>
+      <p><strong>Code:</strong>{pedroHenrique.code.join(', ')}</p>
       <p><strong>Ask me about:</strong> {pedroHenrique.askMeAbout.join(', ')}</p>
     </>
   );
