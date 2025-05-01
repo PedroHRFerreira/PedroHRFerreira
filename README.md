@@ -25,7 +25,6 @@ export default PedroHenrique;
        <summary><h3>Statistics</h3></summary>
     <div align="left">
          <a href="https://github.com/PedroHRFerreira?tab=repositories">
-            <img align="center" src="https://github-profile-trophy.vercel.app/?username=PedroHRFerreira&theme=juicyfresh&hide_langs_below=1" alt="PedroHRFerreira github stats"/>
             <img width="800" height="220" src="https://streak-stats.demolab.com/?user=PedroHRFerreira&theme=dark&hide_border=true&border_radius=5&card_width=1000">
          </a>
     </div>
