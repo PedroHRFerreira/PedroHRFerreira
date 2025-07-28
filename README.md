@@ -4,7 +4,6 @@
 
 Tenho **18 anos**, sou desenvolvedor **Full Stack**.  
 Atualmente atuo profissionalmente em **vários micro-serviços back-end**, além de contribuir no **desenvolvimento front-end de uma plataforma**.  
-Estou sempre me dedicando a aprender novas tecnologias, resolver problemas e criar soluções úteis com código limpo e eficiente.
 
 ---
 
