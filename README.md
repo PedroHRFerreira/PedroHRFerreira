@@ -15,8 +15,8 @@ import React from 'react';
 const PedroHenrique = () => {
   const pedroHenrique = {
     name: "Pedro Henrique",
-    code: ["TypeScript", "JavaScript", "PHP", "HTML", "CSS", "Sass"],
-    askMeAbout: ["web dev", "Vue.js", "Nuxt.js", "Next.js", "laravel"],
+    code: ["TypeScript", "JavaScript", "PHP", "HTML", "CSS", "Sass", "Go", "Python"],
+    askMeAbout: ["web dev", "Vue.js", "Nuxt.js", "Next.js", "laravel", "LLM"],
   };
 
   return (
