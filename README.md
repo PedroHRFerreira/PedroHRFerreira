@@ -3,7 +3,7 @@
 ### 💻 Desenvolvedor Full Stack
 
 Tenho **18 anos**, sou desenvolvedor **Full Stack**.  
-Atualmente atuo profissionalmente em **vários micro-serviços back-end**, além de contribuir no **desenvolvimento front-end de uma plataforma**.  
+Atualmente estou profissionalmente em **vários micro-serviços back-end**, além de contribuir no **desenvolvimento front-end de uma plataforma**.  
 
 ---
 
