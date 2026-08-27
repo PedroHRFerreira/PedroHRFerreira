@@ -6,7 +6,6 @@ Trabalho com Go, TypeScript, Python/FastAPI, Laravel, Vue/Nuxt, React e React Na
 
 ## Projetos em destaque
 
-- [ERP EMPI Autocenter](https://github.com/PedroHRFerreira/erp-empi) — ERP em Go, PostgreSQL e Nuxt 4, com BFF, Docker e testes E2E.
 - [Rods SDK](https://github.com/PedroHRFerreira/rods-sdk) — framework TypeScript/npm para recuperação de contexto, governança e fluxos com agentes de código.
 - [ARCA Tracker](https://github.com/PedroHRFerreira/arca-tracker) — aplicativo React Native local-first com SQLite e Cloudflare Workers.
 - [Rods Themes](https://github.com/PedroHRFerreira/rods-themes) — extensão publicada para VS Code e JetBrains.
