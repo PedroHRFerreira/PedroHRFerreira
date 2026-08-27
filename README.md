@@ -1,31 +1,29 @@
-# 👋 Olá! Eu sou o Pedro H.Rodrigues
+# Pedro Henrique Rodrigues
 
-### 💻 Desenvolvedor Full Stack
+Software Engineer com atuação Full Stack e foco em back-end, arquitetura e produtos digitais.
 
-Tenho **19 anos**, sou desenvolvedor **Full Stack**.  
-Atualmente estou profissionalmente em **vários micro-serviços back-end**, além de contribuir no **desenvolvimento front-end de uma plataforma**.  
+Trabalho com Go, TypeScript, Python/FastAPI, Laravel, Vue/Nuxt, React e React Native em aplicações web, mobile e soluções com IA.
 
----
+## Projetos em destaque
 
-### 🧠 Tecnologias & Stack
+- [ERP EMPI Autocenter](https://github.com/PedroHRFerreira/erp-empi) — ERP em Go, PostgreSQL e Nuxt 4, com BFF, Docker e testes E2E.
+- [Rods SDK](https://github.com/PedroHRFerreira/rods-sdk) — framework TypeScript/npm para recuperação de contexto, governança e fluxos com agentes de código.
+- [ARCA Tracker](https://github.com/PedroHRFerreira/arca-tracker) — aplicativo React Native local-first com SQLite e Cloudflare Workers.
+- [Rods Themes](https://github.com/PedroHRFerreira/rods-themes) — extensão publicada para VS Code e JetBrains.
 
-```javascript
-import React from 'react';
+## Open source
 
-const PedroHenrique = () => {
-  const pedroHenrique = {
-    name: "Pedro Henrique",
-    code: ["TypeScript", "JavaScript", "PHP", "Scss", "Golang", "Python"],
-    askMeAbout: ["web dev", "Vue.js", "Nuxt.js", "Next.js", "laravel", "LLM"],
-  };
+Contribuo para bibliotecas Vue 3/TypeScript, desenvolvendo componentes reutilizáveis, tipagem, testes com Vitest e documentação.
 
-  return (
-    <aside>
-      <h1>{pedroHenrique.name}</h1>
-      <p><strong>Code:</strong> {pedroHenrique.code.join(', ')}</p>
-      <p><strong>Ask me about:</strong> {pedroHenrique.askMeAbout.join(', ')}</p>
-    </aside>
-  );
-};
+## Stack principal
 
-export default PedroHenrique;
+- **Back-end:** Go, Python/FastAPI, Laravel, Node.js, PostgreSQL
+- **Front-end:** TypeScript, Vue.js, Nuxt.js, React.js, Next.js
+- **Mobile:** React Native, Expo, SQLite
+- **Qualidade e infraestrutura:** Docker, Vitest, Playwright, CI/CD, Sentry e SonarQube
+- **IA e Developer Tools:** LLM, RAG, MCP, CLI e SQLite FTS5
+
+## Contato
+
+- [LinkedIn](https://www.linkedin.com/in/pedrohr-dev/)
+- [npm](https://www.npmjs.com/~pedrohrferreira)
