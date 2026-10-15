@@ -1,7 +1,7 @@
 <p align="center">
   <picture>
     <source media="(max-width: 900px)" srcset="./assets/profile-window-compact.svg" />
-    <img src="./assets/profile-window.svg" width="840" alt="Pedro Henrique Rodrigues · Software Engineer / Full Stack. Full Stack com foco em back-end e arquitetura. Governador Valadares, MG, Brasil. linguagens: TypeScript · Go · Python · PHP; back-end: Node.js · FastAPI · Laravel · Echo; front-end: Vue / Nuxt · React / Next.js; mobile: React Native · Expo; dados: PostgreSQL · MySQL · Redis · SQLite; qualidade &amp; infra: Vitest · Playwright · Docker · GitHub Actions; ia: LLM · RAG · MCP." />
+    <img src="./assets/profile-window.svg" width="840" alt="Pedro Henrique Rodrigues · Software Engineer / Full Stack. Full Stack com foco em front-end e arquitetura. Governador Valadares, MG, Brasil. linguagens: TypeScript · Go · Python · PHP; front-end: Vue / Nuxt · React / Next.js; back-end: Node.js · FastAPI · Laravel · Echo; mobile: React Native · Expo; dados: PostgreSQL · MySQL · Redis · SQLite; qualidade &amp; infra: Vitest · Playwright · Docker · GitHub Actions; ia: LLM · RAG · MCP." />
   </picture>
 </p>
 
