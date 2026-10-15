@@ -1,4 +1,13 @@
-# Pedro Henrique Rodrigues
+<p align="center">
+  <img src="./assets/profile-header.svg" width="840" alt="Pedro Henrique Rodrigues — Software Engineer / Full Stack. Back-end, arquitetura e produtos digitais." />
+</p>
+
+<p align="center">
+  <a href="https://pedrohrferreira.com"><img src="./assets/portfolio.svg" width="135" height="42" alt="Acessar meu portfólio" /></a>
+  <a href="https://www.linkedin.com/in/pedrohr-dev/"><img src="./assets/linkedin.svg" width="130" height="42" alt="Meu LinkedIn" /></a>
+  <a href="./docs/curriculo-pedro-henrique-rodrigues.pdf"><img src="./assets/resume-view.svg" width="158" height="42" alt="Visualizar currículo" /></a>
+  <a href="https://github.com/PedroHRFerreira/PedroHRFerreira/raw/refs/heads/main/docs/curriculo-pedro-henrique-rodrigues.pdf"><img src="./assets/resume-download.svg" width="148" height="42" alt="Baixar currículo em PDF" /></a>
+</p>
 
 ```ts
 // pedro.ts
@@ -23,11 +32,3 @@ export const pedro = {
   portfolio: "https://pedrohrferreira.com",
 } as const;
 ```
-
-**Código que eu construo**
-
-- [Rods SDK](https://github.com/PedroHRFerreira/rods-sdk) · Contexto e ferramentas para agentes de código.
-- [ARCA Tracker](https://github.com/PedroHRFerreira/arca-tracker) · App React Native com dados locais em SQLite.
-- [Rods Themes](https://github.com/PedroHRFerreira/rods-themes) · Temas para VS Code e JetBrains.
-
-[Portfólio](https://pedrohrferreira.com) · [LinkedIn](https://www.linkedin.com/in/pedrohr-dev/) · [Ver currículo](./docs/curriculo-pedro-henrique-rodrigues.pdf) · [Baixar currículo (PDF)](https://github.com/PedroHRFerreira/PedroHRFerreira/raw/refs/heads/main/docs/curriculo-pedro-henrique-rodrigues.pdf)
