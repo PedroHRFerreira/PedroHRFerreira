@@ -6,7 +6,7 @@ export const pedro = {
   nome: "Pedro Henrique Rodrigues",
   atuacao: "Software Engineer · Full Stack",
   local: "Governador Valadares, MG · Brasil",
-  foco: ["Back-end", "Arquitetura", "Produtos digitais"],
+  foco: ["Back-end", "Arquitetura"],
 
   stack: {
     linguagens: ["TypeScript", "Go", "Python", "PHP"],
@@ -14,7 +14,8 @@ export const pedro = {
     frontend: ["Vue / Nuxt", "React / Next.js"],
     mobile: ["React Native", "Expo"],
     dados: ["PostgreSQL", "MySQL", "Redis", "SQLite"],
-    qualidade: ["Vitest", "Playwright", "Docker", "CI/CD"],
+    testes: ["Vitest", "Playwright"],
+    infra: ["Docker", "GitHub Actions"],
     ia: ["LLM", "RAG", "MCP"],
   },
 
