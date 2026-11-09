@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://perfil.pedrohrferreira.com/sitemap.xml
