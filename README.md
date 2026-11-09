@@ -17,3 +17,7 @@
   <a href="https://gist.github.com/PedroHRFerreira/9a9c99f7bd9c15c192132440554dfe1e"><strong>Apresentação profissional completa →</strong></a><br />
   <sub>Minha trajetória, experiência e projetos em um só lugar.</sub>
 </p>
+
+## Notas técnicas
+
+[**Como evito baixa duplicada no estoque**](https://gist.github.com/PedroHRFerreira/daebd82e1e1eaa891e4c9540a81b3691) — caso real do ERP EMPI com Go e GORM: implementação, teste automatizado e limites da validação.
