@@ -11,3 +11,9 @@
   <a href="./docs/curriculo-pedro-henrique-rodrigues.pdf"><img src="./assets/resume-view.svg" width="158" height="42" alt="Visualizar currículo" /></a>
   <a href="https://github.com/PedroHRFerreira/PedroHRFerreira/raw/refs/heads/main/docs/curriculo-pedro-henrique-rodrigues.pdf"><img src="./assets/resume-download.svg" width="148" height="42" alt="Baixar currículo em PDF" /></a>
 </p>
+
+
+<p align="center">
+  <a href="https://gist.github.com/PedroHRFerreira/9a9c99f7bd9c15c192132440554dfe1e"><strong>Apresentação profissional completa →</strong></a><br />
+  <sub>Minha trajetória, experiência e projetos em um só lugar.</sub>
+</p>
