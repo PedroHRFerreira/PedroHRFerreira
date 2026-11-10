@@ -32,16 +32,29 @@ Gosto de transformar problemas concretos em software claro, testável e fácil d
 
 ### Braip
 
-**Engenheiro de Software · setembro de 2023 – atual**  
-**Desenvolvedor de Aplicativos Móveis · março a setembro de 2023**
+#### Março de 2022 | Aprendiz | Cargo
 
-Ingressei na empresa como aprendiz em março de 2022 e passei a atuar com desenvolvimento mobile em março de 2023.
+Ingressei na empresa como aprendiz em março de 2022.
 
-- **Braip Shop / Live Commerce (março de 2026 – atual):** construí o front-end com Micro Frontends e Atomic Design, integrando as APIs por meio de um BFF. Também participei do pipeline de qualidade e entrega.
-- **App Braip v2 (outubro de 2025 a fevereiro de 2026):** participei do desenvolvimento em React Native/Expo, da concepção à publicação nas lojas e à evolução em produção.
-- **IA no Braip Members (outubro de 2025 a janeiro de 2026):** implementei APIs em Python/FastAPI para gestão de tutores, system prompts e integração de contexto por RAG.
-- **Plataformas e pagamentos:** desenvolvo interfaces, APIs e microsserviços com Vue/Nuxt, React, TypeScript, Go, Node.js e Laravel.
-- **Desenvolvimento mobile em 2023:** desenvolvi e integrei funcionalidades de um aplicativo financeiro e participei de testes, builds e publicação nas lojas.
+#### Março de 2023 – setembro de 2023 | Desenvolvedor de Aplicativos Móveis | Cargo
+
+Desenvolvi e integrei funcionalidades de um aplicativo financeiro e participei de testes, builds e publicação nas lojas.
+
+#### Setembro de 2023 – atual | Engenheiro de Software | Cargo
+
+Desenvolvo interfaces, APIs e microsserviços com Vue/Nuxt, React, TypeScript, Go, Node.js e Laravel.
+
+#### Outubro de 2025 – janeiro de 2026 | IA no Braip Members | Projeto
+
+Implementei APIs em Python/FastAPI para gestão de tutores, system prompts e integração de contexto por RAG.
+
+#### Outubro de 2025 – fevereiro de 2026 | App Braip v2 | Projeto
+
+Participei do desenvolvimento em React Native/Expo, da concepção à publicação nas lojas e à evolução em produção.
+
+#### Março de 2026 – atual | Braip Shop / Live Commerce | Projeto
+
+Construí o front-end com Micro Frontends e Atomic Design, integrando as APIs por meio de um BFF. Também participei do pipeline de qualidade e entrega.
 
 ### Projetos como freelancer
 

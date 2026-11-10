@@ -32,3 +32,11 @@ O gerador mantém título e descrição, URL canônica, prévias com a foto real
 A meta `google-site-verification` identifica a propriedade no Google Search Console. Ela é pública por definição e deve ser preservada para manter a verificação da conta proprietária. Após alterações relevantes, confira a URL e o sitemap no Search Console.
 
 Indexação e posição nas buscas dependem do Google. Não adicione credenciais, avaliações, estatísticas ou informações profissionais que não possam ser comprovadas no conteúdo público.
+
+## Linha do tempo da experiência
+
+A seção `Experiência em produtos` em `source.md` organiza a Braip em marcos cronológicos com títulos de nível 4 no formato `Período | Título | Cargo` ou `Período | Título | Projeto`. Exemplo de período: `Outubro de 2025 – janeiro de 2026`.
+
+`render-experience.mjs` lê esses dados, valida os períodos e gera uma lista cronológica com datas semânticas. Trabalhos freelancer sem datas confirmadas são apresentados abaixo, preservando seu conteúdo. Não atribua datas ou acontecimentos do exemplo visual à trajetória pessoal.
+
+A experiência usa uma composição em duas colunas: introdução fixa à esquerda e marcos à direita. Em telas de até 880 px, os blocos ficam empilhados para preservar a leitura. `public/timeline.js` destaca o marco próximo da área de leitura com eventos passivos e `requestAnimationFrame`. O conteúdo permanece acessível sem JavaScript; apenas a troca do destaque depende dele.

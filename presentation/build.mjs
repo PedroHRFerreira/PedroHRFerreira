@@ -1,5 +1,6 @@
 import fs from 'node:fs/promises'
 import { marked } from 'marked'
+import { renderExperience } from './render-experience.mjs'
 
 const source = await fs.readFile(new URL('./source.md', import.meta.url), 'utf8')
 const sections = [
@@ -13,21 +14,26 @@ const sections = [
 ]
 const blocks = source.split(/^## /m).slice(1)
 if (blocks.length !== sections.length) throw new Error('Confira as seções da apresentação antes de gerar a página.')
-const content = blocks.map((block, index) => {
+const renderedSections = blocks.map((block, index) => {
   const [title, ...lines] = block.split('\n')
   const [id, expectedTitle] = sections[index]
   if (title.trim() !== expectedTitle) throw new Error(`Seção inesperada: ${title}`)
   const body = lines.join('\n').trim()
   let rendered
-  if (id === 'projetos' || id === 'experiencia') {
+  if (id === 'experiencia') {
+    rendered = renderExperience(body)
+  } else if (id === 'projetos') {
     const articles = body.split(/^### /m)
     const lead = articles.shift().trim()
     rendered = (lead ? marked.parse(lead) : '') + articles.map(article =>
       `<article class="${id === 'projetos' ? 'project' : 'experience'}">${marked.parse('### ' + article)}</article>`
     ).join('')
   } else rendered = marked.parse(body)
+  if (id === 'experiencia') {
+    return `<section id="${id}" class="content-section experience-feature" aria-labelledby="heading-${id}"><div class="experience-intro"><p class="experience-eyebrow"><span aria-hidden="true">03</span> Minha trajetória</p><h2 id="heading-${id}">${expectedTitle}</h2><p>Cargos e projetos que conectam minha experiência com web, mobile e IA. Minha trajetória na Braip começou em março de 2022, como aprendiz.</p></div><div class="section-body">${rendered}</div></section>`
+  }
   return `<section id="${id}" class="content-section" aria-labelledby="heading-${id}"><div class="section-heading"><span class="section-number" aria-hidden="true">${String(index + 1).padStart(2, '0')}</span><h2 id="heading-${id}">${expectedTitle}</h2></div><div class="section-body">${rendered}</div></section>`
-}).join('\n')
+})
 const name = 'Pedro Henrique Rodrigues'
 const title = `${name} — Engenheiro de Software Full Stack`
 const description = `${name}, desenvolvedor Full Stack com foco em front-end. Projetos com Vue/Nuxt, React/Next.js, Go, React Native e IA.`
@@ -71,6 +77,9 @@ const schema = {
   ]
 }
 const navigation = sections.map(([id, title]) => `<a href="#${id}">${title}</a>`).join('')
+const pageIndex = `<aside class="page-index"><nav aria-label="Nesta apresentação"><p class="index-label">Nesta apresentação</p>${navigation}</nav><a class="original-link" href="https://gist.github.com/PedroHRFerreira/9a9c99f7bd9c15c192132440554dfe1e">Apresentação no Gist <span aria-hidden="true">↗</span></a></aside>`
+const readingGroup = sectionHtml => `<div class="reading-group">${pageIndex}<div class="reading-content">${sectionHtml.join('\n')}</div></div>`
+const content = readingGroup(renderedSections.slice(0, 2)) + renderedSections[2] + readingGroup(renderedSections.slice(3))
 const html = `<!doctype html>
 <html lang="pt-BR">
 <head>
@@ -100,6 +109,7 @@ const html = `<!doctype html>
   <meta name="twitter:image:alt" content="Foto de ${name}">
   <link rel="icon" href="/favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="/styles.css">
+  <script src="/timeline.js" defer></script>
   <script type="application/ld+json">${JSON.stringify(schema)}</script>
 </head>
 <body>
@@ -119,7 +129,7 @@ const html = `<!doctype html>
       </div>
       <aside class="hero-note" aria-label="Uma ideia que guia meu trabalho"><span class="note-symbol" aria-hidden="true">“</span><blockquote>Sempre aprendendo.<br>Sempre refatorando.<br><em>Sempre melhorando.</em></blockquote><div class="note-signature"><span class="note-line" aria-hidden="true"></span> Código em constante evolução</div></aside>
     </section>
-    <div class="reading-layout"><aside class="page-index"><nav aria-label="Nesta apresentação"><p class="index-label">Nesta apresentação</p>${navigation}</nav><a class="original-link" href="https://gist.github.com/PedroHRFerreira/9a9c99f7bd9c15c192132440554dfe1e">Apresentação no Gist <span aria-hidden="true">↗</span></a></aside><div class="reading-content">${content}</div></div>
+    <div class="reading-layout">${content}</div>
   </main>
   <footer class="site-footer"><div><strong>Pedro Henrique Rodrigues</strong><p>Engenheiro de Software Full Stack · Web, Mobile e IA</p></div><a href="#inicio">Voltar ao início <span aria-hidden="true">↑</span></a></footer>
 </body>
