@@ -22,3 +22,13 @@ npx wrangler@4.151.3 deploy
 ```
 
 `wrangler.jsonc` mantém o Worker existente e o domínio `perfil.pedrohrferreira.com`. Atualizar o Gist não altera esta página automaticamente: revise `source.md`, gere os arquivos e publique novamente.
+
+## SEO e indexação
+
+O gerador mantém título e descrição, URL canônica, prévias com a foto real e dados estruturados `WebSite`, `ProfilePage`, `Person` e `ImageObject`. Os identificadores conectam a página à pessoa e aos seus perfis públicos.
+
+`robots.txt` e `sitemap.xml` são gerados com a URL pública do subdomínio. O conteúdo completo é entregue em HTML, sem depender de JavaScript no navegador.
+
+A meta `google-site-verification` identifica a propriedade no Google Search Console. Ela é pública por definição e deve ser preservada para manter a verificação da conta proprietária. Após alterações relevantes, confira a URL e o sitemap no Search Console.
+
+Indexação e posição nas buscas dependem do Google. Não adicione credenciais, avaliações, estatísticas ou informações profissionais que não possam ser comprovadas no conteúdo público.

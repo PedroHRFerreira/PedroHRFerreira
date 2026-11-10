@@ -28,13 +28,47 @@ const content = blocks.map((block, index) => {
   } else rendered = marked.parse(body)
   return `<section id="${id}" class="content-section" aria-labelledby="heading-${id}"><div class="section-heading"><span class="section-number" aria-hidden="true">${String(index + 1).padStart(2, '0')}</span><h2 id="heading-${id}">${expectedTitle}</h2></div><div class="section-body">${rendered}</div></section>`
 }).join('\n')
-const description = 'Pedro Henrique Rodrigues, Engenheiro de Software Full Stack. Experiência, tecnologias e projetos em web, mobile e IA.'
+const name = 'Pedro Henrique Rodrigues'
+const title = `${name} — Engenheiro de Software Full Stack`
+const description = `${name}, desenvolvedor Full Stack com foco em front-end. Projetos com Vue/Nuxt, React/Next.js, Go, React Native e IA.`
 const origin = 'https://perfil.pedrohrferreira.com'
+const profileUrl = origin + '/'
+const personId = profileUrl + '#person'
+const pageId = profileUrl + '#profile'
+const websiteId = profileUrl + '#website'
+const imageId = profileUrl + '#portrait'
 const schema = {
-  '@context': 'https://schema.org', '@type': 'Person',
-  name: 'Pedro Henrique Rodrigues', jobTitle: 'Engenheiro de Software Full Stack',
-  url: origin + '/', description,
-  sameAs: ['https://github.com/PedroHRFerreira', 'https://www.linkedin.com/in/pedrohr-dev/', 'https://pedrohrferreira.com/']
+  '@context': 'https://schema.org',
+  '@graph': [
+    {
+      '@type': 'WebSite', '@id': websiteId,
+      name, url: profileUrl, inLanguage: 'pt-BR',
+      publisher: { '@id': personId }
+    },
+    {
+      '@type': 'ProfilePage', '@id': pageId,
+      name: title, url: profileUrl, description, inLanguage: 'pt-BR',
+      isPartOf: { '@id': websiteId },
+      mainEntity: { '@id': personId },
+      primaryImageOfPage: { '@id': imageId }
+    },
+    {
+      '@type': 'Person', '@id': personId,
+      name, alternateName: 'PedroHRFerreira',
+      jobTitle: 'Engenheiro de Software Full Stack',
+      url: profileUrl, description,
+      mainEntityOfPage: { '@id': pageId },
+      image: { '@id': imageId },
+      sameAs: ['https://github.com/PedroHRFerreira', 'https://www.linkedin.com/in/pedrohr-dev/', 'https://pedrohrferreira.com/']
+    },
+    {
+      '@type': 'ImageObject', '@id': imageId,
+      contentUrl: profileUrl + 'avatar.jpg',
+      url: profileUrl + 'avatar.jpg',
+      caption: `Foto de ${name}`, width: 460, height: 460,
+      representativeOfPage: true
+    }
+  ]
 }
 const navigation = sections.map(([id, title]) => `<a href="#${id}">${title}</a>`).join('')
 const html = `<!doctype html>
@@ -42,17 +76,28 @@ const html = `<!doctype html>
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Pedro Henrique Rodrigues — Engenheiro de Software Full Stack</title>
+  <title>${title}</title>
+  <meta name="author" content="${name}">
+  <meta name="google-site-verification" content="EYzHzNoys3lH05o-g-DAPX6S4sonNggF3fvBN5gS9Jo">
   <meta name="description" content="${description}">
   <meta name="robots" content="index, follow">
   <meta name="theme-color" content="#f7f8f5">
   <link rel="canonical" href="${origin}/">
   <meta property="og:type" content="profile">
   <meta property="og:locale" content="pt_BR">
-  <meta property="og:title" content="Pedro Henrique Rodrigues — Full Stack">
+  <meta property="og:site_name" content="${name}">
+  <meta property="og:title" content="${title}">
   <meta property="og:description" content="${description}">
   <meta property="og:url" content="${origin}/">
+  <meta property="og:image" content="${origin}/avatar.jpg">
+  <meta property="og:image:width" content="460">
+  <meta property="og:image:height" content="460">
+  <meta property="og:image:alt" content="Foto de ${name}">
   <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="${title}">
+  <meta name="twitter:description" content="${description}">
+  <meta name="twitter:image" content="${origin}/avatar.jpg">
+  <meta name="twitter:image:alt" content="Foto de ${name}">
   <link rel="icon" href="/favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="/styles.css">
   <script type="application/ld+json">${JSON.stringify(schema)}</script>
